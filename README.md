@@ -1,1 +1,1 @@
-# A simple website created with the help of template
+# A simple website created with the help of a template
