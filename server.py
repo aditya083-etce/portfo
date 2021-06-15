@@ -37,3 +37,6 @@ def submit_form():
 			return 'not saved'
 	else:
 		return 'not submitted. Try again!'
+	
+if __name__ == "__main__":               # to open the website just run this file on cmd :)
+    app.run(debug=True)
