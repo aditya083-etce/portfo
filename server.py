@@ -1,6 +1,8 @@
 from flask import Flask, render_template, request, redirect
 import csv
+
 app = Flask(__name__)
+
 @app.route('/')
 def my_home():
 	return render_template('index.html')
@@ -37,6 +39,6 @@ def submit_form():
 			return 'not saved'
 	else:
 		return 'not submitted. Try again!'
-	
+
 if __name__ == "__main__":               # to open the website just run this file on cmd :)
     app.run(debug=True)
