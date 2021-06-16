@@ -53,7 +53,7 @@ toml==0.10.1
 tox==3.18.1
 translate==3.5.0
 twilio==6.44.1
-urllib3==1.25.10
+urllib3==1.26.5
 virtualenv==20.0.28
 Werkzeug==1.0.1
 wrapt==1.12.1
